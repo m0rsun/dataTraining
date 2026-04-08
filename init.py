@@ -20,6 +20,7 @@ def main():
             charset="utf8mb4"
         )
         cursor=conn.cursor()
+        cursor.execute("DROP DATABASE IF EXISTS logistics")
 
         cursor.execute(f"CREATE DATABASE IF NOT EXISTS {MYSQL_DB_NAME} CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;")
         print(f"{MYSQL_DB_NAME} successfully generated")
