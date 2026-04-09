@@ -36,7 +36,7 @@ def main():
                 arrive_time DATETIME,
                 area VARCHAR(20),
                 star INT,
-                content VARCHAR(100)
+                content VARCHAR(100),
                 );
             """
         )
