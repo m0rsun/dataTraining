@@ -37,6 +37,7 @@ def main():
                 area VARCHAR(20),
                 star INT,
                 content VARCHAR(100),
+                problem_types INT
                 );
             """
         )
