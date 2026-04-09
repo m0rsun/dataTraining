@@ -4,17 +4,12 @@
 
 项目结构：
 
-DATATRAINING/
-├── README.md
-
-├── data.csv
-
-├── init.py
-
-├── update.py
-
-├── analysis.py
-
+DATATRAINING/<br>
+├── README.md<br>
+├── data.csv<br>
+├── init.py<br>
+├── update.py<br>
+├── analysis.py<br>
 └── demo.py
 
 
