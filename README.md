@@ -4,13 +4,17 @@
 
 项目结构：
 
-DATATRAINING/<br>
-├── README.md<br>
-├── data.csv<br>
-├── init.py<br>
-├── update.py<br>
-├── llm.py<br>
-├── analysis.py<br>
-└── demo.py
+```
+DATATRAINING/
+├── README.md           # 项目说明
+├── data.csv            # 自造原始数据
+├── init.py             # MySQL建库
+├── update.py           # 清洗数据并入库
+├── llm.py              # 调用大模型API，记录类别位掩码
+├── analysis.py         # 计算统计值
+└── demo.py             # 运行可视化
+```
 
+运行结果截图：
 
+![可视化](./result.png)
